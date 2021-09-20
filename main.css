@@ -19,8 +19,40 @@ body {
   margin: 0 auto;
   margin-top: 32px;
   margin-bottom: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.insta-mockup-img {
+  margin: 1rem;
+}
+
+.login-container {
+  background-color: #ffff;
 }
 
 .insta-logo {
   width: 242px;
+}
+
+
+.get-the-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-store-img {
+  height: 40px;
+  margin-right: 5px;
+}
+
+.google-play-img {
+  width: 40px;
+  margin-left: 5px;
+  height: 40px;
 }
