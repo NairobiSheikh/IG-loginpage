@@ -8,41 +8,46 @@
     <title>Instagram Login Page</title>
 </head>
 <body>
-    <div class="container">
-        <div class="insta-mockup-img">
+    <div class="content-container">
+        <div class="flex">
             <img src="/img/phone.jpg" alt="Image mock-up">
-        </div>
+      <div class="right-content">
         <div class="login-container">
-            <img class="insta-logo" src="/img/ig-logo.png" alt="Instagram logo">
-            <form class="form-content" method="POST">
-                <input type="text" name="yourInfo" placeholder="Phone number, username, or email">
-                <input type="password" name="yourPassword" placeholder="password">
-                <input type="submit" value="Log In">
-                <div class="option">OR</div>
-                <button class="facebook-login" type="button">
-                <span>
-                    <box-icon type='logo' name='facebook-square'></box-icon>
-                </span>
-                <span>Long in with Facebook</span>
-                </button>
-                <a class="forgot-password" href="#">Forgot password</a>
-            </form>
-            <div class="signup-container">
-                <div>
-                    <p>
-                    Don't have an account?
-                    <a href="#"><span id="sign">Sign Up</span></a>
-                    </p>
-                </div>
-            </div>
-            <div class="get-the-app">
-              <p>Get the app.</p>
-              <div class="app-logos">
-                <a href="#"><img id="app-store-img" src="/img/appStore.png" alt="Apple Store logo"></a>
-                <a  href="#"><img id="google-play-img" src="/img/googlePlay.png" alt="Goodle Play logo"></a> -->
-              </div>
-            </div>
+          <img src="https://assets.codepen.io/6060109/ig-logo.png">
+          <form>
+            <input type="text" placeholder="Phone number, username, or email">
+            <input type="password" placeholder="Password">
+            <input type="submit" value="Log In">
+          </form>
+          <hr>
+          <p><span>OR</span></p>
+          <a href="#"><span><box-icon type='logo' name='facebook-square'></box-icon></span>Log In with Facebook</a>
+          <a href="#">Forgot password?</a>
         </div>
+        <div class="sign-up-container">
+          <p>Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+        <div class="buttons-container">
+          <p>Get the app.</p>
+          <div class="btn-flex">
+            <img src="/img/appStore.png">
+            <img src="/img/googlePlay.png">
+          </div>
+        </div>
+        </div>
+        </div>
+        <footer>
+        <a>About</a>
+        <a>Blog</a>
+        <a>Jobs</a>
+        <a>Help</a>
+        <a>API</a>
+        <a>Privacy</a>
+        <a>Terms</a>
+        <a>Top Accounts</a>
+        <a>Hashtags</a>
+        <a>Locations</a>
+      </footer>
     </div>
     <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
 </body>
